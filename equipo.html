@@ -1,63 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Productos - Barberia Alura</title>
+    <title>Nuestro equipo</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="main.css">
   </head>
   <body>
+    <div id="like_button_container"></div>
     <header>
-      <div class="banner">         
-          <a href="https://ligadefutbolaficionado.com/team/combo-del-ayer/">
-          <img class= logo src="images/Escudo Combo 2022 III.png" alt="Logo Combo del ayer" onmouseover="playAudio1()" onmouseout="pauseAudio()"></img>
-      </a>
-          <audio id="himno" src="audio/combo.mp3"></audio>
-          <h1 class="marca">Combo del Ayer FC</h1> 
-          <section class="seguidores">
-              <a href="https://www.facebook.com/combo.delayer.5?mibextid=ZbWKwL"><img class= "redes" src="images/face.png" alt="facebook"></a>
-              <a href="https://wa.me/573147458471/"><img class= "redes"src="images/wp.png" alt="whatsapp"></a>
-              <a href="https://www.instagram.com/combodelayerfc/?funlid=wCicLEfOd0Bc91aC"><img class= "redes"src="images/insta.png" alt="instagram"></a>
-              <nav>
-                  <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="productos.html">Plantilla</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                  </ul>
-                </nav>    
-          </section>
-      </header>
-    <main>
-        <ul class="productos">
-            <li>
-                <h2>Cabello</h2>
-                <img src="imagenes/cabello.jpg" alt=""> 
-                <p class="producto-descripcion">Con tijera o maquina, a  gusto del cliente</p>
-                <p class="producto-precio">$ 10.00</p>
-                </li>
-            <li>
-                <h2>Barba</h2>
-                <img src="imagenes/barba.jpg" alt=""> 
-                <p class="producto-descripcion">Corte y diseño profesional de barba</p>
-                <p class="producto-precio">$ 08.00</p>
-                </li>
-            <li>
-                <h2>Cabello + Barba</h2>
-                <img src="imagenes/cabello+barba.jpg" alt=""> 
-                <p class="producto-descripcion">Paquete completo de cabello y barba</p>
-                <p class="producto-precio">$ 15.00</p>
-                </li>
-        </ul>
-        
-        
-       
+        <div class="banner">         
+            <a href="https://ligadefutbolaficionado.com/team/combo-del-ayer/">
+            <img class= logo src="images/Escudo Combo 2022 III.png" alt="Logo Combo del ayer" onmouseover="playAudio1()" onmouseout="pauseAudio()"></img>
+        </a>
+            <audio id="himno" src="audio/combo.mp3"></audio>
+            <h1 class="marca">Combo del Ayer FC</h1> 
+            <section class="seguidores">
+                <a href="https://www.facebook.com/combo.delayer.5?mibextid=ZbWKwL"><img class= "redes" src="images/face.png" alt="facebook"></a>
+                <a href="https://wa.me/573147458471/"><img class= "redes"src="images/wp.png" alt="whatsapp"></a>
+                <a href="https://www.instagram.com/combodelayerfc/?funlid=wCicLEfOd0Bc91aC"><img class= "redes"src="images/insta.png" alt="instagram"></a>
+                <nav>
+                    <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="equipo.html">Plantilla</a></li>
+                      <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                  </nav>    
+            </section>
+        </header>
+        <div class="franja">
+          <div><h4 class="slogan">Más que un equipo, una familia!</h4>
+        </div>
+      <main>
+        <section id="galeria">
+            <img src="images/Bryan.JPG" alt="galeria de imagenes">
+            <img src="images/Duvan.JPG" alt="galeria de imagenes">
+            <img src="images/Fercho.JPG" alt="galeria de imagenes">
+            <img src="images/Joel.jpg" alt="galeria de imagenes">
+            <img src="images/Mina.JPG" alt="galeria de imagenes">
+            <img src="images/Palo.JPG" alt="galeria de imagenes">
+            <img src="images/Roble.JPG" alt="galeria de imagenes">
+            <img src="images/W.JPG" alt="galeria de imagenes">
+        </section>
+        <section id="contenedor-principal">
+            <div id="contenedor-interno">
+                <img id="img-activa" src="/img/img1.jpg" alt="galeria de imagenes">
+                <button id="btn-cierra" type="button">x</button>
+                <button id="btn-retrocede" type="button">&lt;</button>
+                <button id="btn-adelanta" type="button">&gt;</button>
+            </div>
+        </section>
     </main>
-
+<script src="./app.js"></script>
+ </main>
     <footer>
-        <img src="imagenes/logo-blanco.png" alt="">
-        <p class="copyright">&copy Copyright Barberia Alura - 2020</p>
-    </footer>
+  <section>
+      <div>
+      <h3 class="copyrigth">  &#153 Data FG</h3>
+      </div>
+  </section>
+  </footer> 
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react -dom.development.js" crossorigin></script>
+  <script src="like_button.js"></script>
   </body>
+  <script src="./sonidos.js"></script>
 </html>
