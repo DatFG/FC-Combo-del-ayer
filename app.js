@@ -12,7 +12,7 @@ let indiceImagen = 0;
 
 const abreLightbox = (event) => {
   imagenActiva.src = event.target.src;
-  lightbox.style.display = 'flex';
+  lightbox.style.display = 'inline';
   indiceImagen = Array.from(imagenes).indexOf(event.target);
 };
 
