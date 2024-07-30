@@ -60,6 +60,8 @@ nav a {
   width: 98%;
   height: auto;
   display: block;
+  margin-left: 4%;
+  margin-bottom: 2em;
 }
 .uniforme{
   width: 30%;
@@ -236,7 +238,6 @@ footer {
 .direct{
   width: 30%;
   height: auto;
-  margin-bottom: 2%;
 }
 iframe{
   margin-top: 2em;
