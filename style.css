@@ -43,7 +43,8 @@ nav a {
   padding-left: 27%;
   margin-top: 50px;
   padding-top: 2%;
-  color: rgb(202, 184, 21);
+  color: rgb(255, 255, 250);
+  opacity: 0%;
 }
 .seguidores {
   display: block;
@@ -295,22 +296,25 @@ footer {
     width: 3em;
     position: absolute;
   }
-  nav a {
+  .marca {
+    text-align: center;
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-variant: inherit;
+    color: rgb(255, 255, 250);
+    opacity: 0%;
+  }
+    nav a {
     text-transform: uppercase;
     color: #081547;
     font-weight: lighter;
     font-size: 6px;
     text-decoration: none;
-  }
-  .marca {
-    width: auto;
-    text-align:center;
-    font-size: 1em;
-    margin-bottom: 1em;;
+    padding: 1em;
   }
   .seguidores {
     display:inline;
-    position:button;
   }
   .redes {
     width: 1em;
