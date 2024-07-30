@@ -64,11 +64,20 @@ nav a {
   margin-left: auto;
   color: rgb(24, 24, 71);
 }
+.divisas{
+  width: 98%;
+  height: auto;
+  display: block;
+}
+.uniforme{
+  width: 30%;
+  margin: 1% 1% 1%;
+}
 .anuncio {
   width: 80%;
   text-align: center;
   font-size: 2em;
-  font-family:;
+  font-family:monospace;
   font-variant: inherit;
   margin-left: 13%;
   margin-top: 2%;
@@ -97,10 +106,46 @@ nav a {
 .patrocinadores:hover {
   transform: scale(1.2);
 }
+.campana {
+  font-family: montserrat;
+  font-size: 2em;
+  text-align: left;
+  margin-left: 1%;
+  padding-top: 1em;
+  font-weight: bold;
+}
+.news {
+  text-align: center;
+  width: 100%;
+  margin-left: 0%;
+  box-shadow: 10px 5px 5px rgb(165, 173, 241);
+}
+p{
+  font-family: montserrat;
+  line-height: 1.7em;text-align: justify;
+  color:rgb(13, 13, 56);
+  padding-bottom: 2rem;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.noticia {
+  width: 100%;
+  text-align: center;
+  margin-right: 2%;
+  padding-right: 2%;
+  margin-left: 0%;
+}
+.franja {
+  display: inline-block;
+  width: 100%;
+  margin-top: 1em;
+  margin-left: 0%;
+  text-align: center;
+}
+
 /*Galeria de Imagenes*/
 #galeria {
-  margin-top: 20%;
-  position:relative;
+  position:absolute;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   grid-template-columns: repeat(3, 1fr);
@@ -108,6 +153,7 @@ nav a {
   max-width: 700px;
   min-width: 400px;
   padding: 0 10px;
+  margin-top: 850px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -124,17 +170,18 @@ nav a {
   width: 100%;
   height: auto;
 }
+
 /*Contenedor Principal del Lightbox*/
 
 #contenedor-principal {
-  position:static;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: 10;
-  background-color: rgba(209, 209, 248, 0.985);
-  display:block;
+  background-color: rgba(0, 0, 0, 0.55);
+  display: none;
   justify-content: center;
   align-items: center;
 }
@@ -144,12 +191,13 @@ nav a {
 #contenedor-interno {
   border: 2px #f3f3f3 solid;
   padding: 2px;
-  background: #cbd1f1;
-  max-width: 500px;
-  min-height: 400px;
+  background: #3f3f3f;
+  max-width: 800px;
+  min-height: 800px;
   position: relative;
-  display:flex;
+  display: inline-block;
   justify-content: center;
+  margin-top: 12%;
 }
 
 /*Botones*/
@@ -180,43 +228,6 @@ button {
   top: 50%;
   right: 0;
   font-size: 3rem;
-}
-
-.campana {
-  font-family: montserrat;
-  font-size: 2em;
-  text-align: left;
-  margin-left: 1%;
-  padding-top: 1em;
-  font-weight: bold;
-}
-.news {
-  text-align: center;
-  width: 100%;
-  margin-left: 0%;
-  box-shadow: 10px 5px 5px rgb(165, 173, 241);
-}
-p{
-  font-family: montserrat;
-  line-height: 1.7em;text-align: justify;
-  color:rgb(13, 13, 56);
-  padding-bottom: 2rem;
-  margin-left: 2%;
-  margin-right: 2%;
-}
-.noticia {
-  width: 100%;
-  text-align: center;
-  margin-right: 2%;
-  padding-right: 2%%;
-  margin-left: 0%;
-}
-.franja {
-  display: inline-block;
-  width: 100%;
-  margin-top: 1em;
-  margin-left: 0%;
-  text-align: center;
 }
 .galery {
   opacity: 0.7;
@@ -274,9 +285,12 @@ p{
   padding-left: 0.5%;
 }
 footer {
+  position:fixed;
   width: 100%;
   margin-left: 0%;
   margin-right: 0%;
+  margin-top: 1%;
+  bottom: 0;
   padding: 1%;
   text-align: center;
   font-family: sans-serif;
