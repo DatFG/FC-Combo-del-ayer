@@ -244,7 +244,7 @@ iframe {
   padding-top: 1em;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .banner {
     width: 100%;
     height: auto;
