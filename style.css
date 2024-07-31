@@ -250,6 +250,7 @@ iframe {
     height: 300px;
     height: auto;
     display: inline-block;
+    margin-bottom: 1%;
   }
   .logo {
     width: 3em;
