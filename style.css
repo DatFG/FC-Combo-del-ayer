@@ -1,5 +1,5 @@
 body {
-  background-image:url(images/Escudo\ fondo.png);
+  background-image: url(images/Escudo\ fondo.png);
   background-size: 100%;
 }
 .banner {
@@ -56,14 +56,14 @@ nav a {
 .redes {
   width: 2em;
 }
-.divisas{
+.divisas {
   width: 98%;
   height: auto;
   display: block;
   margin-left: 4%;
   margin-bottom: 2em;
 }
-.uniforme{
+.uniforme {
   width: 30%;
   margin: 1% 1% 1%;
 }
@@ -71,7 +71,7 @@ nav a {
   width: 100%;
   text-align: center;
   font-size: 2em;
-  font-family:monospace;
+  font-family: monospace;
   font-variant: inherit;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -81,17 +81,17 @@ nav a {
   width: 100%;
   text-align: center;
   font-size: 2em;
-  font-family:monospace;
+  font-family: monospace;
   font-variant: inherit;
   margin-top: 2%;
   margin-bottom: 2%;
   color: rgb(24, 24, 71);
 }
-.staf{
+.staf {
   width: 100%;
   text-align: center;
   font-size: 2em;
-  font-family:monospace;
+  font-family: monospace;
   font-variant: inherit;
   margin-top: 0%;
   margin-bottom: 0%;
@@ -107,7 +107,7 @@ nav a {
   text-align: center;
   margin-left: 0%;
   margin-right: 0%;
-  background-color:rgb(43, 43, 235);
+  background-color: rgb(43, 43, 235);
 }
 .patrocinadores {
   width: 100px;
@@ -134,10 +134,11 @@ nav a {
   margin-top: 0.5em;
   box-shadow: none;
 }
-p{
+p {
   font-family: montserrat;
-  line-height: 1.7em;text-align: justify;
-  color:rgb(13, 13, 56);
+  line-height: 1.7em;
+  text-align: justify;
+  color: rgb(13, 13, 56);
   padding-bottom: 2rem;
   margin-left: 2%;
   margin-right: 2%;
@@ -151,7 +152,7 @@ p{
 }
 /*Galeria de Imagenes*/
 .galeria {
-  position:inline;
+  position: inline;
   display: inline-flexbox;
   margin-left: 15%;
 }
@@ -161,11 +162,10 @@ p{
   border-radius: 5px;
   cursor: pointer;
 }
-.jugador:hover{
+.jugador:hover {
   transform: scale(2);
-  display:inline-flexbox;
+  display: inline-flexbox;
 }
-
 .galery {
   opacity: 0.7;
   text-align: center;
@@ -178,15 +178,15 @@ p{
   transform: scale(1.2);
 }
 .galery1 {
-  opacity:0.7;
+  opacity: 0.7;
   text-align: center;
   width: 20%;
   margin-left: 1%;
   box-shadow: 10px 5px 5px rgb(181, 192, 249);
 }
- .galery1:hover {
-    opacity: 1;
-    transform: scale(1.5);
+.galery1:hover {
+  opacity: 1;
+  transform: scale(1.5);
 }
 .marcha {
   width: 100%;
@@ -195,12 +195,8 @@ p{
   margin-bottom: 1em;
 }
 .video {
-  width: 98%;
   text-align: center;
-  padding-top: 2rem;
-  margin-left: 2%;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-right: 22%;
 }
 .nosotros {
   text-align: center;
@@ -220,9 +216,10 @@ p{
   margin-left: 1%;
   padding-right: 2%;
   padding-left: 0.5%;
+  margin-bottom: 4em;
 }
 footer {
-  position:fixed;
+  position: fixed;
   width: 100%;
   margin-left: 0%;
   margin-right: 0%;
@@ -235,22 +232,22 @@ footer {
   color: aliceblue;
   background-color: rgb(2, 2, 28);
 }
-.direct{
+.direct {
   width: 30%;
   height: auto;
 }
-iframe{
+iframe {
   margin-top: 2em;
   margin-left: 30%;
 }
-.copyrigth{
+.copyrigth {
   padding-top: 1em;
 }
 
 @media screen and (max-width: 480px) {
   .banner {
     width: 100%;
-    height:auto;
+    height: auto;
     display: inline-block;
   }
   .logo {
@@ -266,7 +263,7 @@ iframe{
     color: rgb(255, 255, 250);
     opacity: 0%;
   }
-    nav a {
+  nav a {
     text-transform: uppercase;
     color: #081547;
     font-weight: lighter;
@@ -275,17 +272,17 @@ iframe{
     padding: 1em;
   }
   .seguidores {
-    display:inline;
+    display: inline;
   }
   .redes {
     width: 1em;
   }
   .sponsors {
-    display:block;
+    display: block;
     width: 100%;
     text-align: center;
   }
-  .patrocinadores{
+  .patrocinadores {
     width: 17%;
   }
   .galery {
@@ -295,7 +292,7 @@ iframe{
     box-align: center;
   }
   #galeria {
-    position:absolute;
+    position: absolute;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     grid-template-columns: repeat(3, 1fr);
@@ -308,10 +305,13 @@ iframe{
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  iframe{
+  .video {
+    margin-right: 0%;
+  }
+  iframe {
     width: 100%;
     margin-top: 1em;
     margin-left: 0%;
-    margin-right: 0$;
+    margin-right: 0em;
   }
 }
