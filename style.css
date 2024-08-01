@@ -266,11 +266,11 @@ iframe {
     padding: 1em;
   }
   .seguidores {
-    margin-right: 10%;
+    margin-left: 60%;
   }
   .redes {
-    width: 10px;
-    height: 10px;
+    width: 13px;
+    height: 13px;
   }
   .sponsors {
     display: block;
@@ -278,7 +278,8 @@ iframe {
     text-align: center;
   }
   .patrocinadores {
-    width: 15%;
+    width: 25px;
+    height: 25px;
     margin-left: 0;
   }
   .galery {
