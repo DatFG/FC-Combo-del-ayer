@@ -48,7 +48,7 @@ nav a {
 .seguidores {
   width: 5%;
   display: inline;
-  margin-left: 80%;
+  margin-left: 60%;
   vertical-align: super;
 }
 .redes {
@@ -264,9 +264,6 @@ iframe {
     font-size: 5px;
     text-decoration: none;
     padding: 1em;
-  }
-  .seguidores {
-    margin-left: 60%;
   }
   .redes {
     width: 13px;
