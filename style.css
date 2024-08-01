@@ -8,10 +8,15 @@ body {
   height: 300px;
   margin-left: 0%;
   margin-right: 0%;
+  margin-bottom: 1em;
   padding: 2%;
   background-repeat: no-repeat;
   background-position-x: center;
   background-size: cover;
+}
+.escudo {
+  width: 90%;
+  display: inline;
 }
 .logo {
   width: 150px;
@@ -34,14 +39,15 @@ nav a {
   text-decoration: none;
 }
 .seguidores {
-  display: block;
-  width: 4%;
+  width: 10%;
+  display: inline;
   margin-left: 10%;
   padding-right: 2em;
   padding-top: 3%;
 }
 .redes {
   width: 2em;
+  height: 2em;
 }
 .divisas {
   width: 98%;
@@ -234,7 +240,7 @@ iframe {
 @media screen and (max-width: 800px) {
   .banner {
     width: 100%;
-    height: auto;
+    height: 100px;
     display: inline-block;
     margin-bottom: 1%;
   }
@@ -255,6 +261,7 @@ iframe {
   }
   .redes {
     width: 1em;
+    height: 1em;
   }
   .sponsors {
     display: block;
