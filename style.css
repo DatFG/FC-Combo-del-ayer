@@ -61,10 +61,13 @@ nav a {
   display: block;
   margin-left: 4%;
   margin-bottom: 2em;
+  text-align: center;
 }
 .uniforme {
-  width: 30%;
+  width: 20em;
+  height: 17em;
   margin: 1% 1% 1%;
+  box-shadow: 4px 4px 4px rgb(3, 3, 85);
 }
 .anuncio {
   width: 100%;
