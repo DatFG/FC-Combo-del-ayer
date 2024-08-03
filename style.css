@@ -52,8 +52,10 @@ nav a {
   vertical-align: super;
 }
 .redes {
-  width: 2em;
-  height: 2em;
+  width: 3%;
+  height: 3%;
+  margin-right: 2%;
+  padding-top: 1%;
 }
 .divisas {
   width: 98%;
@@ -106,37 +108,32 @@ nav a {
   width: 100%;
   margin-left: 0%;
   margin-right: 0%;
-  padding: 0.2rem;
-  display: block;
-  position: relative;
   text-align: center;
-  margin-left: 0%;
-  margin-right: 0%;
-  background-color: rgb(43, 43, 235);
+  display: inline-block;
+  text-align: center;
+  background-color: none;
 }
 .patrocinadores {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   margin-left: 1%;
-  margin-right: 1%;
-  box-shadow: 2px 2px 2px rgb(241, 206, 64);
+  margin-right: 2%;
+  box-shadow: 2px 2px 2px rgb(101, 124, 235);
 }
 .patrocinadores:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
 .campana {
   font-family: montserrat;
   font-size: 2em;
   text-align: left;
   margin-left: 1%;
-  padding-top: 1em;
   font-weight: bold;
 }
 .news {
   text-align: center;
   width: 100%;
   margin-left: 1%;
-  margin-top: 0.5em;
   box-shadow: none;
 }
 p {
@@ -223,14 +220,17 @@ p {
   padding-left: 0.5%;
   margin-bottom: 4em;
 }
+.formulario {
+  text-align: center;
+}
 footer {
   position: fixed;
   width: 100%;
+  height: auto;
   margin-left: 0%;
   margin-right: 0%;
   margin-top: 1%;
   bottom: 0;
-  padding: 1%;
   text-align: center;
   font-family: sans-serif;
   font-size: 1em;
@@ -241,14 +241,6 @@ footer {
   width: 30%;
   height: auto;
 }
-iframe {
-  margin-top: 2em;
-  margin-left: 30%;
-}
-.copyrigth {
-  padding-top: 1em;
-}
-
 @media screen and (max-width: 800px) {
   .banner {
     width: 100%;
