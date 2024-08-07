@@ -23,7 +23,10 @@ body {
   width: 14%;
   background-image: none;
   display: inline;
+  filter: drop-shadow(0px 6px 21px #ff0);
+  animation: rotar 5s linear infinite;
 }
+
 .marca {
   width: 100%;
   opacity: 0;
@@ -245,6 +248,16 @@ footer {
   font-weight: bold;
   text-decoration: none;
 }
+
+@keyframes rotar {
+  from {
+    transform: rotateY(180deg);
+  }
+  to {
+    transform: rotateY(-180deg);
+  }
+}
+
 @media screen and (max-width: 800px) {
   .banner {
     width: 100%;
